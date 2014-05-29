@@ -1,0 +1,57 @@
+* {
+	@include box-sizing(border-box);
+}
+
+html {
+
+	height: 100%;
+
+}
+
+body, input, textarea, select {
+	font-family: $font-normal;
+}
+
+body {
+
+	
+
+	font-size: 16px;
+
+	margin: 1em;
+
+	color: #fff;
+
+
+	// needs latest Compass, add '@import "compass"' to your scss
+	background-color: #7d7e7d; // Old browsers
+	@include filter-gradient(#7d7e7d, #0e0e0e, vertical); // IE6-9
+	@include background-image(linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%));
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-weight: normal;
+
+}
+
+#main {
+
+	max-width: 800px;
+	margin: 0 auto;
+
+	text-align: center;
+
+	> header, > section {
+
+		margin: 2em 0;
+
+
+
+	}
+}

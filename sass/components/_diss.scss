@@ -1,0 +1,22 @@
+q {
+
+	font-family: $font-quote;
+
+	font-size: 6em;
+	padding: 1.5em 0;
+
+	display: block;
+
+
+	&:before {
+		content: '“';
+	}
+	&:after {
+		content: '”';
+	}
+
+	line-height: 1em;
+
+	@include text-shadow(#000 3px 3px);
+
+}
