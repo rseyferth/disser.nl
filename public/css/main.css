@@ -78,7 +78,7 @@ html {
 }
 
 /* line 11, ../../sass/basic/_basics.scss */
-body, input, textarea, select {
+body, input, textarea, select, button {
   font-family: "PT Sans Narrow";
 }
 
@@ -115,6 +115,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 2em 0;
 }
 
+/* line 60, ../../sass/basic/_basics.scss */
+a {
+  color: inherit;
+}
+/* line 64, ../../sass/basic/_basics.scss */
+a:hover {
+  color: #FF0F0F;
+}
+
 /* line 2, ../../sass/basic/_headers.scss */
 h1 {
   font-size: 2em;
@@ -129,8 +138,8 @@ header h1 {
 /* line 1, ../../sass/components/_diss.scss */
 q {
   font-family: "Lobster";
-  font-size: 6em;
-  padding: 1.5em 0;
+  font-size: 5em;
+  padding: 1em 0;
   display: block;
   line-height: 1em;
   text-shadow: black 3px 3px;
@@ -158,5 +167,6 @@ form input, form button {
 }
 /* line 16, ../../sass/components/_forms.scss */
 form button {
-  color: #ED200E;
+  color: #FF0F0F;
+  text-shadow: none;
 }

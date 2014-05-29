@@ -8,6 +8,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="stylesheet" href="css/main.css">
+
+		<meta property="og:title" content="disser.nl - Dissen is nu eenvoudig en snel" />
+		<meta property="og:url" content="{{ URL::current() }}" />
+
+
 		
 	</head>
 	<body>

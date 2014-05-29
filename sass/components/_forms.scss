@@ -15,7 +15,8 @@ form {
 
 	button {
 
-		color: #ED200E;
+		color: #FF0F0F;
+		@include text-shadow(none);
 
 
 	}

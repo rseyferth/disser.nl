@@ -22,10 +22,42 @@ class Diss
 			'Je bent te dom om deze dis te begrijpen.',
 			'Adriaan van Dis.',
 			'Poep hoort niet aan je gezicht.',
-			'Je denkt zeker dat je Steve Miller Band.'
+			'Je denkt zeker dat je Steve Miller Band.',
+			'Je hebt een vreemd gezicht.',
+			'Polio is geen mode-statement.',
+			'Je bent een kei. Glad hard en koud!',
+			'Disssssssss!',
+			'Je hebt een poffertjes-porem.',
+			'Als jij in het spookhuis komt, dan lopen de poppen weg.',
+			'Voel jij je echt zo beroerd als je eruit ziet?',
+			'Jouw gezicht is zo pokdalig: als je in jouw gezicht een kilo erwten gooit rolt er geen één terug.',
+			'Wat zit je haar leuk. Is het al lang dood?',
+			'Gij ploertige hofnar!',
+			'Simsalabim! SHIT... Je bent nog steeds lelijk.',
+			'Mag ik je pasfoto? Ik spaar natuurrampen.',
+			'Je bent zo\'n eikel dat er 700 eekhoorns achter je aan rennen.',
+			'Ik hou van de zee. Ik hou van de rotsen. Maar als ik jou zie moet ik kotsen.',
+			'Als kleuter was je al zo lelijk dat je moeder een stuk biefstuk om je nek moest binden, anders wou zelfs de hond niet met je spelen.',
+			'Je buik ziet eruit alsof je een miljoen bolletjes hebt geslikt',
+			'Ik schijt op je status.'
+
 		];
 
-		return $disses[array_rand($disses)];
+		// Check session
+		$seen = Session::get('seen', []);
+		if (count($seen) >= count($disses)) $seen = [];
+
+		foreach ($seen as $i) {
+			unset($disses[$i]);
+		}
+
+
+		// Get a random one
+		$index = array_rand($disses);
+		array_push($seen, $index);
+		Session::set('seen', $seen);
+
+		return $disses[$index];
 
 
 	}
