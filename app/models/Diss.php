@@ -39,7 +39,9 @@ class Diss
 			'Ik hou van de zee. Ik hou van de rotsen. Maar als ik jou zie moet ik kotsen.',
 			'Als kleuter was je al zo lelijk dat je moeder een stuk biefstuk om je nek moest binden, anders wou zelfs de hond niet met je spelen.',
 			'Je buik ziet eruit alsof je een miljoen bolletjes hebt geslikt',
-			'Ik schijt op je status.'
+			'Ik schijt op je status.',
+			'Je bent zo lelijk dat zelfs Bob de Bouwer je niet kan fiksen.'
+
 
 		];
 

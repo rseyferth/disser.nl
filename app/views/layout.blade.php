@@ -9,8 +9,9 @@
 
 		<link rel="stylesheet" href="css/main.css">
 
-		<meta property="og:title" content="disser.nl - Dissen is nu eenvoudig en snel" />
-		<meta property="og:url" content="{{ URL::current() }}" />
+		<meta property="og:title" content="Ik wil je dissen.">
+		<meta property="og:description" content="disser.nl - Dissen is nu eenvoudig en snel">
+		<meta property="og:url" content="{{ URL::current() }}">
 
 
 		
