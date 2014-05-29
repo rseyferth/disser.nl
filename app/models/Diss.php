@@ -46,7 +46,8 @@ class Diss
 			'Gecondoleerd met je kop.',
 			'Iedereen mag lelijk zijn, maar jij maakt er echt misbruik van.',
 			'Zelfs Zumba is nog cooler dan jij.',
-			'Mooie tanden. Heb je ze ook in het wit?'
+			'Mooie tanden. Heb je ze ook in het wit?',
+			'Hoeveel kostte die pruik?'
 
 		];
 
