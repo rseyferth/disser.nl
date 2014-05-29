@@ -20,14 +20,6 @@
 		
 		<div id="main">
 
-			<header>
-
-				<h1>disser.nl</h1>
-				<h2>Dissen is nu eenvoudig en snel</h2>
-
-			</header>
-
-			<hr>
 			@yield('content')
 
 		</div>
@@ -44,6 +36,6 @@
 		  ga('send', 'pageview');
 
 		</script>
-		
+
 	</body>
 </html>

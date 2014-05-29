@@ -19,4 +19,10 @@ q {
 
 	@include text-shadow(#000 3px 3px);
 
+	@media (max-width: 500px) {
+
+		padding: 0;
+		
+	}
+
 }

@@ -98,28 +98,34 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+@media (max-width: 500px) {
+  /* line 15, ../../sass/basic/_basics.scss */
+  body {
+    font-size: 12px;
+  }
+}
 
-/* line 37, ../../sass/basic/_basics.scss */
+/* line 41, ../../sass/basic/_basics.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-/* line 43, ../../sass/basic/_basics.scss */
+/* line 47, ../../sass/basic/_basics.scss */
 #main {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
 }
-/* line 50, ../../sass/basic/_basics.scss */
+/* line 54, ../../sass/basic/_basics.scss */
 #main > header, #main > section {
   margin: 2em 0;
 }
 
-/* line 60, ../../sass/basic/_basics.scss */
+/* line 64, ../../sass/basic/_basics.scss */
 a {
   color: inherit;
 }
-/* line 64, ../../sass/basic/_basics.scss */
+/* line 68, ../../sass/basic/_basics.scss */
 a:hover {
   color: #FF0F0F;
 }
@@ -151,6 +157,12 @@ q:before {
 /* line 14, ../../sass/components/_diss.scss */
 q:after {
   content: '”';
+}
+@media (max-width: 500px) {
+  /* line 1, ../../sass/components/_diss.scss */
+  q {
+    padding: 0;
+  }
 }
 
 /* line 1, ../../sass/components/_forms.scss */
