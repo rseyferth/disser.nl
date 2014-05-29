@@ -38,7 +38,8 @@
 
 {{ Form::close() }}
 
-@if (Session::has('message'))fac
+@if (Session::has('message'))
+<p>{{ Session::get('message') }}</p>
 @endif
 
 </section>

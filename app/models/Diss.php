@@ -40,7 +40,9 @@ class Diss
 			'Als kleuter was je al zo lelijk dat je moeder een stuk biefstuk om je nek moest binden, anders wou zelfs de hond niet met je spelen.',
 			'Je buik ziet eruit alsof je een miljoen bolletjes hebt geslikt',
 			'Ik schijt op je status.',
-			'Je bent zo lelijk dat zelfs Bob de Bouwer je niet kan fiksen.'
+			'Je bent zo lelijk dat zelfs Bob de Bouwer je niet kan fiksen.',
+			'Je bent zo dik, dat als je je omdraait je alweer jarig bent.',
+			'Je bent zo dik, dat als je een gele jas aanhebt, mensen in Amerika denken dat de zon opkomt.'
 
 
 		];
