@@ -47,7 +47,8 @@ class Diss
 			'Iedereen mag lelijk zijn, maar jij maakt er echt misbruik van.',
 			'Zelfs Zumba is nog cooler dan jij.',
 			'Mooie tanden. Heb je ze ook in het wit?',
-			'Hoeveel kostte die pruik?'
+			'Hoeveel kostte die pruik?',
+			'Jezus houdt van je, maar hij is wel de enige.'
 
 		];
 
