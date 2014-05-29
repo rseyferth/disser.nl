@@ -42,8 +42,11 @@ class Diss
 			'Ik schijt op je status.',
 			'Je bent zo lelijk dat zelfs Bob de Bouwer je niet kan fiksen.',
 			'Je bent zo dik, dat als je je omdraait je alweer jarig bent.',
-			'Je bent zo dik, dat als je een gele jas aanhebt, mensen in Amerika denken dat de zon opkomt.'
-
+			'Je bent zo dik, dat als je een gele jas aanhebt, mensen in Amerika denken dat de zon opkomt.',
+			'Gecondoleerd met je kop.',
+			'Iedereen mag lelijk zijn, maar jij maakt er echt misbruik van.',
+			'Zelfs Zumba is nog cooler dan jij.',
+			'Mooie tanden. Heb je ze ook in het wit?'
 
 		];
 
