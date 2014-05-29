@@ -38,7 +38,7 @@ class PageController extends BaseController {
 		Session::set('from_name', Input::get('from_name'));
 		Session::set('from_email', Input::get('from_email'));
 
-		return Redirect::to('/')->with('message', 'De dis is verstuurd naar ' . Input::get('to_email') . ".");
+		return Redirect::to('/')->with('message', 'De dis is verstuurd naar ' . Input::get('to_email') . ".")->with('playSound', true);
 
 
 	}

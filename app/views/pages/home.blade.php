@@ -31,7 +31,13 @@
 
 <input type="text" name="to_email" placeholder="Ander e-mailadres">
 
-<button type="submit">Dis!</button>
+<button type="submit" id="submit-button">Dis!</button>
+
+<audio id="audio">
+	<source src="audio/dis.mp3" type="audio/mpeg">
+	<source src="audio/dis.ogg" type="audio/ogg">
+</audio>
+
 
 </div>
 
@@ -50,6 +56,10 @@
 <h1>Social dissing</h1>
 
 <script>
+
+
+
+
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '{{ App::environment() == "local" ? "542167652560130" : "542166819226880" }}',
@@ -74,8 +84,17 @@
 
   	});
 
-
   }
+
+  @if (Session::has('playSound'))
+  	var audio = document.getElementById('audio');
+	audio.play();
+  @endif
+
+
+
+
+
 
 </script>
 
