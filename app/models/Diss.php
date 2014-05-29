@@ -48,7 +48,9 @@ class Diss
 			'Zelfs Zumba is nog cooler dan jij.',
 			'Mooie tanden. Heb je ze ook in het wit?',
 			'Hoeveel kostte die pruik?',
-			'Jezus houdt van je, maar hij is wel de enige.'
+			'Jezus houdt van je, maar hij is wel de enige.',
+			'Ik zie je elke dag in het toilet.',
+			'Heeft de meneer die over uw gezicht is gereden sorry gezegd?'
 
 		];
 
