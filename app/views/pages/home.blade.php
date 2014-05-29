@@ -83,7 +83,7 @@
 <p><a href="javascript:disOnFacebook();">Dissen op Facebook.</a></p>
 
 <br>
-<div class="fb-like" data-href="http://disser.nl" data-colorscheme="dark" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+<div class="fb-like" data-href="http://disser.nl" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
 
 
 <div id="fb-root"></div>
